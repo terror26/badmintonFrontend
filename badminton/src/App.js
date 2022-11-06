@@ -1,8 +1,12 @@
+import { CategoriesTable } from "./components/CategoryData";
+import React, { Component }  from 'react';
+import RouteApp from "./components/RouteApp";
 
+const data = {};
 
 function App() {
   return (
-    <div>Hello JI</div>
+      <RouteApp />
   );
 }
 
